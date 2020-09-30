@@ -95,7 +95,11 @@ Stretch Questions
     2. What happens when an element is positioned absolutely? 
         The parent element will behave as if the element isn't there
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-
+        Box model
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    
+        Default block:
+            article, header, footer
+        Default inline
+            a, button, span
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+        The box model places all elements into boxes which have the properties of content, padding, border and margin. If you set box-sizing to border-box, the browser will make sure the content box will shrink to the width given to them.
